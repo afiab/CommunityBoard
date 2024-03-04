@@ -5,8 +5,10 @@ function Post({ name, description}) {
 
   return (
     <section style={{ border: '3px solid white', marginBottom: '8px'}}>
-        <h3>{name}</h3>
-        <h4>{description}</h4>
+        <div class="place">
+            <h3>{name}</h3>
+            <h4>{description}</h4>
+        </div>
     </section>
   )
 }
